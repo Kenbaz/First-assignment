@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link href="assets/register.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+    <header>
+        <img id="logo" src="media/Altschool logo.webp" alt="Altschool logo" height="50" width="100">
+        <nav>
+            <ul>
+                <li><a href="/home.html">Home</a></li>
+                <li><a href="/about.html">About</a></li>
+                <li><a href="#">Register</a></li>
+            </ul>
+        </nav>
+    </header>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <div class="container">
+        <h1>Application Form</h1>
+        <p>Fill in your details</p>
+        <hr>
+        <form>
+            <div class="form-row">
+                <div class="form-group">
+                    <label for="first-name">First Name
+                        <input id="first-name" name="first-name" type="text" placeholder="Enter first name" required>
+                    </label>
+                </div> <!--form group ends-->
+                <div class="form-group">
+                    <label for="last-name">Last Name
+                        <input id="last-name" name="last-name" type="text" placeholder="Enter last name" required>
+                    </label>
+                </div> <!--form-group ends-->
+            </div> <!--form-row ends-->
+
+            <div class="form-row">
+                <div class="form-group">
+                    <label for="gender">Gender
+                        <select name="gender" id="gender" required>
+                            <option value="">Select gender</option>
+                            <option value="Male">Male</option>
+                            <option value="Female">Female</option>
+                        </select>
+                    </label>
+                </div> <!--form-group ends-->
+                <div class="form-group">
+                    <label for="date-of-birth">Date of Birth
+                        <input id="date-of-birth" name="date-of-birth" type="date" required>
+                    </label>
+                </div> <!--form-group ends-->
+            </div> <!--form-row ends-->
+
+            <div class="form-row">
+                <div class="form-group">
+                    <label for="email">Email
+                        <input id="email" name="email" type="email" placeholder="Enter email address" required>
+                    </label>
+                </div> <!--form-group ends-->
+                <div class="form-group">
+                    <label for="education">Education Level
+                        <select id="education" name="education" required>
+                            <option value="">Select level of education</option>
+                            <option value="B.sc">B.sc</option>
+                            <option value="undergraduate">Undergraduate</option>
+                            <option value="M.sc">M.sc</option>
+                        </select>
+                    </label>
+                </div> <!--form-group ends-->
+            </div> <!--form-row ends-->
+
+            <div class="form-row">
+                <div class="form-group">
+                    <label for="country">Country
+                        <select id="country" name="country">
+                            <option value="">Select your country</option>
+                            <option value="Nigeria">Nigeria</option>
+                            <option value="Ghana">Ghana</option>
+                            <option value="Kenya">Kenya</option>
+                        </select>
+                    </label>
+                </div> <!--form-group ends-->
+                <div class="form-group">
+                    <label for="residence">State/City of Residence
+                        <input id="residence" name="residence" type="text" placeholder="Enter your state of residence"
+                            required>
+                    </label>
+                </div> <!--form-group ends-->
+            </div> <!--form-row ends-->
+
+            <div class="form-row">
+                <div class="form-group">
+                    <label for="employment">Employment status
+                        <select id="employment" name="employment" required>
+                            <option value="">Select employment status</option>
+                            <option value="employed">Employed</option>
+                            <option value="unemployed">Unemployed</option>
+                        </select>
+                    </label>
+                </div> <!--form-group ends-->
+                <div class="form-group">
+                    <label for="phone-number">Phone number
+                        <input id="phone-number" name="phone-number" type="tel" placeholder="Enter phone number"
+                            required>
+                    </label>
+                </div> <!--form-group ends-->
+            </div> <!--form-row ends-->
+
+            <div class="form-row">
+                <div class="form-group">
+                    <label for="school">School
+                        <select id="school" name="school" required>
+                            <option value="">Choose school</option>
+                            <option value="School of engineering">School of engineering</option>
+                            <option value="School of product">School of product</option>
+                        </select>
+                    </label>
+                </div> <!--form-group ends-->
+                <div class="form-group">
+                    <label for="course">Choose course of study
+                        <select id="course" name="course">
+                            <option value="">Select course</option>
+                            <option value="Frontend engineering">Frontend engineering</option>
+                            <option value="Backend engineering">Backend engineering</option>
+                        </select>
+                    </label>
+                </div> <!--form-group ends-->
+            </div> <!--form-row ends-->
+
+            <div class="form-row">
+                <div class="form-group">
+                    <label for="info">How did you hear about us
+                        <input id="info" name="info" type="text" placeholder="How did you hear about us">
+                    </label>
+                </div> <!--form-group ends-->
+                <div class="form-group">
+                    <label for="scholarship">Scholarship
+                        <input id="scholarship" name="scholarship" type="text" placeholder="Do you want a scholarship">
+                    </label>
+                </div> <!--form-group ends-->
+            </div> <!--form-row ends-->
+
+            <blockquote>
+                By clicking continue, i agree <span style="color: blue;">Terms of Use</span> and acknowledge that i have
+                read the <span style="color: blue;">Privacy Policy.</span>
+            </blockquote>
+            <button type="submit">Proceed</button>
+        </form>
+    </div> <!--container end-->
+</body>
+
+</html>
